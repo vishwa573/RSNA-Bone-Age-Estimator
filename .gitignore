@@ -1,0 +1,36 @@
+# --- Python General ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (Crucial to ignore) ---
+venv/
+env/
+.venv/
+.env
+
+# --- Data (NEVER commit the dataset) ---
+data/
+data/raw/
+data/processed/
+
+# --- Output Artifacts ---
+# Ignore saved models (too large for GitHub)
+output/models/
+*.pt
+*.pth
+
+# Optional: Ignore generated plots if you don't want them in the repo
+# (Comment this out if you WANT to show plots in your README)
+output/plots/
+
+# --- IDE & OS Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+archive/
